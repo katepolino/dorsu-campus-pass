@@ -10,3 +10,7 @@ export interface StudentProfile {
 export interface StatusBadgeProps {
   isActive: boolean;
 }
+
+export interface StudentCardProps {
+  student: StudentProfile;
+}
